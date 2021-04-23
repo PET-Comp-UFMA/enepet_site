@@ -1,2 +1,3 @@
-# AcalouradaVirtual
-Repositório do site da acalourada realizada pelo PETComp
+# Site do Enepet
+Repositório do site do ENEPET
+
