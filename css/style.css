@@ -54,7 +54,7 @@ h6 {
   font-weight: 400;
   margin: 10px 0 10px 0;
   padding: 0;
-  color: #1B100A;
+  color: #000;
 }
 
 .main-page {
@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #87CEFA;
+  background: #d33b33;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -100,18 +100,33 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #050C38;
+  background: #8b130d;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background:#050C38;
+  background:#8b130d;
   color:  #fff; 
 }
 
 /* Sections Header
 --------------------------------*/
+
+.img-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-banner{
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.texto-banner h6{
+  color: #FA9D05;
+}
 
 .section-header {
   margin-top: 30px;
@@ -126,7 +141,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #87CEFA;
+  background: #d33b33;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -324,7 +339,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #87CEFA;
+  background-color: #d33b33;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -409,7 +424,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #87CEFA;
+  color: #d33b33;
 }
 
 /* Mobile Nav Styling */
@@ -420,7 +435,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #87CEFA;
+  background: #d33b33;
 
   left: -260px;
   width: 260px;
@@ -468,11 +483,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #87CEFA;
+  color: #d33b33;
 }
 
 #mobile-nav ul .menu-item-active {
-  color:#87CEFA;
+  color:#d33b33;
 }
 
 #mobile-body-overly {
@@ -610,11 +625,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #d33b33;
 }
 
 #intro-2 .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #d33b33;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -652,11 +667,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #87CEFA;
+  border: 2px solid #d33b33;
 }
 
 #intro-2 .about-btn:hover {
-  background: #87CEFA;
+  background: #d33b33;
   color: #fff;
 }
 
@@ -711,7 +726,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color:#87CEFA;
+  color:#d33b33;
 }
 
 #intro p {
@@ -723,7 +738,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#87CEFA 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#d33b33 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -766,11 +781,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #d33b33;
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #d33b33;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -808,11 +823,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #87CEFA;
+  border: 2px solid #d33b33;
 }
 
 #intro-2 .about-btn:hover {
-  background: #87CEFA;
+  background: #d33b33;
   color: #fff;
 }
 
@@ -856,7 +871,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/imagem_fundo_sobre.jpg");
+  background: url("../img/background-image.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -951,7 +966,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #87CEFA;
+  color: #d33b33;
 }
 
 #speakers .speaker:hover .details {
@@ -986,7 +1001,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #87CEFA;
+  background: #d33b33;
   color: #fff;
 }
 
@@ -1035,7 +1050,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #87CEFA;
+  background-color: #d33b33;
   color: #fff;
 }
 
@@ -1561,7 +1576,7 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #050C38;
+  background: #8b130d;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
@@ -1620,7 +1635,7 @@ td, th {
 }
 
 #footer .footer-top .social-links a:hover {
-  background:#050C38;
+  background:#8b130d;
   color:  #fff;
 }
 
