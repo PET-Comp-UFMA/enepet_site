@@ -34,7 +34,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #51A2A6;
+  color: #d33b33;
   outline: none;
   text-decoration: none;
 }
@@ -210,7 +210,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #header #logo h1 a,
@@ -398,7 +398,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #51A2A6;
+  background: #d33b33;
   color: #fff;
 }
 
@@ -1124,7 +1124,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .schedule-subtitle{
   font-size: 25px;
   font-weight: 500;
-  color:#51A2A6;
+  color:#d33b33;
 }
 
 /*--------------------------------------------------------------
@@ -1142,15 +1142,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #51A2A6;
+  background: #d33b33;
+  font-weight: bold;
   color:white;
 }
 
 .faq-whatsapp:hover{
   text-decoration: none ;
   background: none;
-  color: #51A2A6;
-  border-color: #51A2A6;
+  color: #d33b33;
+  border-color: #d33b33;
 
 }
 
@@ -1262,7 +1263,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #faq #faq-list a.collapsed {
@@ -1314,8 +1315,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe button {
   border: 0;
   padding: 9px 25px;
+  font-weight: bold;
   cursor: pointer;
-  background: #51A2A6;
+  background: #d33b33;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1324,7 +1326,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #51A2A6;
+  background: #c42f27;
 }
 
 /*--------------------------------------------------------------
@@ -1376,13 +1378,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #51A2A6;
+  background-color: #d33b33;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #51A2A6;
+  background-color: #d33b33;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1395,13 +1397,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #51A2A6;
+  background-color: #d33b33;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #51A2A6;
+  background-color: #d33b33;
 }
 
 /*--------------------------------------------------------------
@@ -1424,8 +1426,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   margin: 15px;
   background: no-repeat center;
-  background-size: cover;;
-  border: #51A2A6 solid 1px;
+  background-size: cover;
+ 
+}
+
+.add-pr .btn {
+  border: 1px solid #d33b33;
+}
+
+.add-pr .btn:hover {
+  background-color: #d33b33;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1449,13 +1460,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #contact .contact-info h3 {
@@ -1463,7 +1474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #contact .contact-info a {
@@ -1471,7 +1482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #contact .contact-address,
@@ -1481,8 +1492,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #51A2A6;
-  border: 1px solid #51A2A6;
+  color: #d33b33;
+  border: 1px solid #d33b33;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1523,7 +1534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #51A2A6;
+  background: #d33b33;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1533,7 +1544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51A2A6;
+  background: #d33b33;
 }
 
 /*--------------------------------------------------------------
@@ -1547,7 +1558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 td, th {
-  border: 2px solid #6ec5ff;
+  border: 3px solid #d33b33;
   font-weight: 300;
   padding: 4px;
   text-align: center;
@@ -1673,7 +1684,7 @@ td, th {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #51A2A6;
+  color: #d33b33;
   font-size: 18px;
 }
 
@@ -1691,7 +1702,7 @@ td, th {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #51A2A6;
+  color: #d33b33;
 }
 
 #footer .footer-top .footer-contact {
@@ -1713,7 +1724,7 @@ td, th {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #51A2A6;
+  background: #d33b33;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1724,7 +1735,7 @@ td, th {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #51A2A6;
+  background: #d33b33;
 }
 
 #footer .copyright {
