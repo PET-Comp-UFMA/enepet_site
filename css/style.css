@@ -1430,6 +1430,12 @@ body.mobile-nav-active #mobile-nav-toggle {
  
 }
 
+figure img{
+  border: 1px solid #000;
+  border-radius: 5px;
+  
+}
+
 .add-pr .btn {
   border: 1px solid #d33b33;
 }
@@ -1442,7 +1448,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-
+.info-text{
+  text-align: justify;
+  margin: 5px auto 50px auto;
+}
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
